@@ -480,8 +480,9 @@ body {
     width: 100%;
     padding: 24px;
     position: absolute;
-    left: 10px;
-    top: 20px;
+    // left: 10px;
+    top: 80px;
+    left: 0;
     background-image: url("../images/bg-img.png");
     position: relative;
     border-radius: 10px;
@@ -490,10 +491,18 @@ body {
 .shorten__input {
     width: 100%;
     margin-bottom: 30px;
-    padding: 8px 20px 8px 16px;
+    padding: 12px 20px 12px 16px;
     background-color: #FFFFFF;
     border-radius: 5px;
     border: transparent;
+}
+
+input::placeholder{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 36px;
+    letter-spacing: 0.12px;
+    color: #34313D;
 }
 
 .shorten__btn {
@@ -541,20 +550,9 @@ input:not(:placeholder-shown):not(:focus):invalid+.shorten__invalid {
         #F03535;
 }
 
-.shorten {
-    overflow-x: hidden;
-}
 
 
-@media screen and (min-width:450px) {
-    .shorten__form {
-        width: 90%;
-    }
-}
 
-@media screen and (min-width:550px) {
-    .shorten__form {}
-}
 
 
 @media screen and (min-width:720px) {
@@ -566,8 +564,8 @@ input:not(:placeholder-shown):not(:focus):invalid+.shorten__invalid {
         // left: 0;
         // margin: 0 auto;
         z-index: 5;
-        left: 40px;
-        top: 1px;
+        // left: 25px;
+        top: 47px;
     }
 
 
@@ -589,6 +587,7 @@ input:not(:placeholder-shown):not(:focus):invalid+.shorten__invalid {
         display: flex;
         padding: 52px 65px;
         width: 100%;
+        top: 78px;
         // max-width: 650px;
         // right: 0;
         // left: 0;
@@ -619,4 +618,26 @@ input:not(:placeholder-shown):not(:focus):invalid+.shorten__invalid {
         bottom: 20px;
     }
 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.next{
+    padding-top: 200px;
+background-color: #808080;
 }

@@ -391,8 +391,8 @@ body {
   width: 100%;
   padding: 24px;
   position: absolute;
-  left: 10px;
-  top: 20px;
+  top: 80px;
+  left: 0;
   background-image: url("../images/bg-img.png");
   position: relative;
   border-radius: 10px;
@@ -401,10 +401,34 @@ body {
 .shorten__input {
   width: 100%;
   margin-bottom: 30px;
-  padding: 8px 20px 8px 16px;
+  padding: 12px 20px 12px 16px;
   background-color: #FFFFFF;
   border-radius: 5px;
   border: transparent;
+}
+
+input::-moz-placeholder {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 36px;
+  letter-spacing: 0.12px;
+  color: #34313D;
+}
+
+input:-ms-input-placeholder {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 36px;
+  letter-spacing: 0.12px;
+  color: #34313D;
+}
+
+input::placeholder {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 36px;
+  letter-spacing: 0.12px;
+  color: #34313D;
 }
 
 .shorten__btn {
@@ -479,22 +503,12 @@ input:not(:placeholder-shown):not(:focus):invalid + .shorten__invalid {
   color: #F03535;
 }
 
-.shorten {
-  overflow-x: hidden;
-}
-
-@media screen and (min-width: 450px) {
-  .shorten__form {
-    width: 90%;
-  }
-}
 @media screen and (min-width: 720px) {
   .shorten__form {
     display: flex;
     width: 95%;
     z-index: 5;
-    left: 40px;
-    top: 1px;
+    top: 47px;
   }
   .shorten__input {
     padding: 10px 61px;
@@ -510,6 +524,7 @@ input:not(:placeholder-shown):not(:focus):invalid + .shorten__invalid {
     display: flex;
     padding: 52px 65px;
     width: 100%;
+    top: 78px;
   }
   .shorten__input {
     padding: 14px 32px;
@@ -528,4 +543,8 @@ input:not(:placeholder-shown):not(:focus):invalid + .shorten__invalid {
   .shorten__invalid {
     bottom: 20px;
   }
+}
+.next {
+  padding-top: 200px;
+  background-color: #808080;
 }/*# sourceMappingURL=main.css.map */
