@@ -268,9 +268,13 @@ body {
     .site-header__menu-btn {
         display: none;
     }
+    .site-header__inner{
+    justify-content: start;
+    }
 
     .sitenav__box {
         display: flex;
+        width: 100%;
     }
 
     .sitenav__list-login {
