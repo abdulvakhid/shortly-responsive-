@@ -511,7 +511,7 @@ input:not(:placeholder-shown):not(:focus):invalid + .shorten__invalid {
     top: 47px;
   }
   .shorten__input {
-    width: 80%;
+    width: 60%;
     padding: 10px 20px;
     margin-bottom: 0;
     margin-right: 10px;
