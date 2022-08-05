@@ -1049,6 +1049,10 @@ input:not(:placeholder-shown):not(:focus):invalid+.shorten__invalid {
     .site-footer__box {
         width: 100%;
     }
+    .site-footer__img-box{
+    width: 100%;
+    max-width: 400px;
+    }
 
     .site-footer__item {
         text-align: start;
@@ -1064,7 +1068,8 @@ input:not(:placeholder-shown):not(:focus):invalid+.shorten__invalid {
     }
 
     .site-footer__content {
-        width: 20%;
+        width: 100%;
+        max-width: 170px;
         text-align: left;
     }
 
